@@ -292,3 +292,110 @@ button{
     margin-top: 90px;
     font-size: 25px
 }
+@media (max-width: 414px) {
+    /* Zorg dat de navigatie goed past */
+    .nav {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .logo {
+        height: auto;
+        width: auto;
+        margin: 0 auto;
+    }
+
+    .main-nav {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* Content secties */
+    .container {
+        width: 95%; /* Zorg dat de container bijna de hele breedte van het scherm vult */
+        margin: 20px auto;
+        flex-direction: column;
+    }
+
+    .text-section {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .text-section h1 {
+        font-size: 1.5rem;
+    }
+
+    .text-section p {
+        font-size: 0.9rem;
+    }
+
+    .image-section {
+        min-height: 200px; /* Verklein de hoogte voor kleinere schermen */
+    }
+
+    /* Footer */
+    footer {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .een {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .naam {
+        margin-top: 20px;
+        font-size: 20px;
+    }
+
+    /* Slider */
+    .slider {
+        height: 300px; /* Verklein de hoogte van de slider */
+        background-size: cover;
+        background-position: center;
+    }
+
+    /* Algemeen tekst en knoppen */
+    p {
+        font-size: 1.2rem;
+    }
+
+    input {
+        height: 50px;
+        width: 80%; /* Breedte aanpassen aan kleinere schermen */
+    }
+
+    button {
+        height: 50px;
+        width: 150px;
+    }
+
+    .alles {
+        width: 90%; /* Zorg dat alles in het scherm past */
+        margin-bottom: 50px;
+    }
+
+    .status {
+        flex-direction: column;
+    }
+
+    .s {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    .image {
+        height: auto;
+        width: 100%;
+    }
+}
