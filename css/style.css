@@ -150,14 +150,17 @@ footer{
     height: 700px;
 }
 .slider {
-    width: auto;
-    height: 500px;
+    /* width: auto;
+    height: 500px; */
     background: url(./assets/1.jpg);
     animation: slide 20s infinite;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     image-rendering: auto;
+    display: block; 
+    width: 100%; 
+    height: auto
 }
 p{
     font-size: 80px;
